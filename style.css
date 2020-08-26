@@ -1,0 +1,22 @@
+header{
+    position: relative;
+    background-color: #f83600;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#intro {
+    background-color: #fe8c00;
+    padding: 50px 100px;
+}
+
+article{
+    background-color: #ffefba;
+    padding: 100px;
+}
