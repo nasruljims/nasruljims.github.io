@@ -1,22 +1,50 @@
 header{
-    position: relative;
     background-color: #f83600;
     color: white;
-    padding: 10px;
-    font-size: 20px;
+    padding: 5px 0;
+    font-size: 23px;
 }
 
 nav li{
     display: inline-block;
-    padding: 0 20px;
+    padding: 15px 30px;
+    margin: 0 15px;
+    border: 3px solid black;
+}
+
+nav ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #intro {
     background-color: #fe8c00;
-    padding: 50px 100px;
+    padding: 20px 100px;
+    margin: 0;
 }
 
-article{
+#intro p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#intro h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#intro img{
+    height: 200px;
+    width: 150px;
+}
+
+.content{
     background-color: #ffefba;
-    padding: 100px;
+    height: 280px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.content h2{
+    margin-top: 0;
 }
