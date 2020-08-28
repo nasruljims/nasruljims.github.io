@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Project</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <title>Soapie Login Page</title>
 </head>
 <body>
-    <h1>START</h1>
+    <header>
+        <h1 class="heading logo">Soapie</h1>
+        <h3 class="heading">Login page</h3>
+    </header>
+
+    <main>
+        <h1>Selamat datang di Soapie toko serba sabun!</h1>
+        <div class="fLanding">
+            <h2>Login</h2>
+            <form action="home.html">
+                <input type="email" id="username" placeholder="Email" required/>
+                <input type="password" id="password" placeholder="Password" minlength="6" maxlength="15" required/>
+                <button id="loginBtn" onclick="login()">LOGIN</button>
+            </form>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="script.js"></script>
+
+    <footer>
+
+    </footer>
 </body>
 </html>

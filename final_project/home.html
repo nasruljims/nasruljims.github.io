@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <title>Soapie Home Page</title>
+</head>
+<body>
+    <header>
+        <h1 class="logo heading">Soapie</h1>
+        <h3 class="heading">Home page</h3>
+        
+        <div id="account" class="heading">
+            <table class="heading">
+                <tr>
+                    <th>Money: </th>
+                    <td id="money" >money</td>
+                    <th>Account: </th>
+                    <td id="show"></td>
+                </tr>
+            </table>
+
+            <button id="logout" onclick="location.href = 'index.html'">LOGOUT</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="home">
+            <h1>Selamat berbelanja di Soapie, silahkan pilih produk yang anda inginkan</h1>
+        </div>
+
+        <div class="display">
+            <table>
+                <tr>
+                    <td><button id="item1" value="50000" onclick="buy()"><img src="./images/HCLE-MAMA-002A-1.jpg" alt="product mamajeruk"></button></td>
+                    <td><button id="item2" value="25000" onclick="buy2()"><img src="./images/sunlay.jpg" alt="product sunlay"></button></td>
+                    <td><button id="item3" value="10000" onclick="buy3()"><img src="./images/lifeboy.jpg" alt="product sunlay"></button></td>
+                </tr>
+                <tr>
+                    <th>Nama Produk : Mama Jeruk<br> Harga : Rp. 50.000</th>
+                    <th>Nama Produk : Sunlay<br> Harga : Rp. 25.000</th>
+                    <th>Nama Produk : Lifeboy<br> Harga : Rp. 10.000</th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="keranjang">
+            <h3>Keranjang Belanja : </h3>
+            <table>
+                <tr>
+                    <th>Produk</th>
+                    <th>Harga</th>
+                </tr>
+                <tr>
+                    <td id="produk"></td>
+                    <td id="harga"></td>
+                </tr>
+                <tr>
+                    <td id="produk2"></td>
+                    <td id="harga2"></td>
+                </tr>
+                <tr>
+                    <td id="produk3"></td>
+                    <td id="harga3"></td>
+                </tr>
+                <tr>
+                    <th>TOTAL: </th>
+                    <td id="total"></td>
+                </tr>
+                <tr>
+                    <th colspan="2"><button id="checkout" onclick="validate()">CHECKOUT</button></th>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="script.js"></script>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
